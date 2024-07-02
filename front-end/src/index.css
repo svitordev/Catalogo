@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  cursor: pointer;
+}
+a:hover,
+.Link:hover {
+  color: #ffffff;
+}
+.selected {
+  background: #8e0e00;
+  background: -webkit-linear-gradient(to right, #1f1c18, #8e0e00, #1f1c18);
+  background: linear-gradient(to right, #1f1c18, #8e0e00, #1f1c18);
+  color: #ffffff;
+}
+.bg_header {
+  background: #8e0e00;
+  background: -webkit-linear-gradient(to right, #1f1c18, #8e0e00, #1f1c18);
+  background: linear-gradient(to right, #1f1c18, #8e0e00, #1f1c18);
+}
+.border_grad {
+  border: 2px solid;
+  border-image: #a01101;
+  border-image: -webkit-linear-gradient(to right, #a01101, #a01101, #1f1c18);
+  border-image: linear-gradient(to right, #a01101, #a01101, #1f1c18);
+  border-image-slice: 1;
+}
+.Link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.links li svg {
+  color: white;
+}
+body,
+html,
+#root {
+  background-color: #ffffff;
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
